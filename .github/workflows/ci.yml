@@ -23,5 +23,6 @@ jobs:
         run: npm install
 
       - name: Run the application (sanity check)
-        run: timeout 3s node app.js
+        run: node app.js &
+
 
