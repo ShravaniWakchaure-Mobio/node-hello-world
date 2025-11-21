@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Run the application (sanity check)
-        run: node server.js
+        run: node app.js
