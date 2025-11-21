@@ -24,7 +24,3 @@ jobs:
 
       - name: Run the application (sanity check)
         run: node server.js
-
-
-notepad .github/workflows/ci.yml
-
